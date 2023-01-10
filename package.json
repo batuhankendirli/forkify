@@ -10,11 +10,13 @@
   "author": "Batuhan Kendirli",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.20.12",
     "@parcel/transformer-sass": "^2.0.0-beta.2",
     "parcel": "^2.0.0-beta.2",
     "sass": "^1.32.8"
   },
   "dependencies": {
+    "@babel/plugin-syntax-class-properties": "^7.12.13",
     "core-js": "^3.10.0",
     "fractional": "^1.0.0",
     "regenerator-runtime": "^0.13.7"
